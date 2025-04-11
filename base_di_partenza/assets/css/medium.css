@@ -54,10 +54,10 @@ header {
   top: 0;
   z-index: 1;
 }
-
+/*
 .scrollDown {
   background-color: white;
-}
+}*/
 
 .headerNav {
   display: flex;
@@ -215,4 +215,16 @@ p {
   align-content: stretch;
   justify-content: space-evenly;
   align-items: flex-end;
+}
+
+aside ul {
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  list-style-type: none;
+}
+
+ul li {
+  padding: 0.8rem;
 }
